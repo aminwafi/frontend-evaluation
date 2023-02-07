@@ -1,0 +1,25 @@
+.mat-header-cell {
+    white-space: nowrap;
+    padding: 0 8px;
+    background-color: white;
+    font-weight: bold;
+    color: #222;
+}
+
+.mat-row:hover {
+    background-color: rgba(146, 208, 80, 0.124);
+}
+
+table {
+    width: 100%;
+}
+
+.mat-form-field {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.mat-spinner {
+    margin: auto;
+}

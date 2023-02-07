@@ -1,0 +1,8 @@
+<app-header>
+    <div class="content" [class.is-mobile]="mobileQuery.matches">
+        <router-outlet (activate)="onActivate($event)"></router-outlet>
+    </div>
+    <app-footer class="d-print-none"></app-footer>
+</app-header>
+
+<router-outlet></router-outlet>
