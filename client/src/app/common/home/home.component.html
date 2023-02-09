@@ -4,7 +4,7 @@
     </div>
     
     <div *ngIf="dataSource" class="table-responsive">
-        <mat-form-field appearance="outline">
+        <mat-form-field appearance="outline" class="no-padding">
             <mat-label>Search</mat-label>
             <input matInput (keyup)="search($event)">
             <mat-icon matPrefix class="mx-3">search</mat-icon>
@@ -29,8 +29,9 @@
             <tr mat-header-row *matHeaderRowDef="columns"></tr>
             <tr mat-row *matRowDef="let row; columns: columns;" class="cursor-pointer"></tr>
         </table>
-        <mat-paginator [pageSizeOptions]="[12, 24, 36, 48]"></mat-paginator>
+        <mat-paginator [pageSizeOptions]="[10, 20, 30, 40, 50]"></mat-paginator>
     </div>
+    
     
 </div>
 

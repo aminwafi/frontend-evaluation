@@ -15,11 +15,20 @@ table {
 }
 
 .mat-form-field {
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 100%;
 }
 
 .mat-spinner {
     margin: auto;
 }
+
+.mat-column-name {
+    width: 30%
+}
+
+.mat-column-domain {
+    width: 20%;
+}
+

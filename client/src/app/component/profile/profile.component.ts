@@ -14,7 +14,7 @@ export class ProfileComponent implements OnInit {
         this.text = "Hi, my name is Muhamad Amin Wafi Bin Ahmad Hisamuddin. " +
         "I am currently working at Maybank as a fullstack cloud developer. On a daily basis, I would be mostly focusing into MEAN stack development " +
         "and implementing cloud solutions. To date, I have a year and 2 months experience working in a developer role, and " +
-        "contributed over 30 to 40 features for web application and 5 to 10 projects in cloud development. \n\n" +
+        "contributed over 30 to 40 features for web application and few POCs with cloud development projects. \n\n" +
 
         "Previously, I was working as a data scientist on a graduate programme for two months, and I had also interned as a software engineer " +
         "that focus mainly on backend and automation. Ideally, I would like to take more opportunities into " +
